@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error, r2_score
 
 # Load data
-file_path = "data_rumahh.xlsx"
+file_path = "./data_rumahh.xlsx"
 data = pd.read_excel(file_path)
 
 # Pastikan kolom yang diperlukan ada dalam dataset

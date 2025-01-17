@@ -40,8 +40,8 @@ def make_prediction(model, input_data):
         return None
 
 # File paths
-excel_path = "data_rumahh.xlsx"  # Path ke file Excel
-model_path = "model.pkl"  # Path ke model machine learning
+excel_path = "./data_rumahh.xlsx"  # Path ke file Excel
+model_path = "./model.pkl"  # Path ke model machine learning
 
 # Load data dan model
 data = load_data(excel_path)
